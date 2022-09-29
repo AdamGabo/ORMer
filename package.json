@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce_db",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000O\u0000R\u0000M\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AdamGabo/ORMer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^5.22.5"
+  }
+}
